@@ -10,6 +10,9 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 body {
@@ -44,10 +47,14 @@ ul li {
   padding: 0 50px;
 }
 
+.header__container {
+  padding: 10px 50px 11px 50px;
+}
+
 .header__nav {
   display: flex;
   max-width: 668px;
-  min-height: 69px;
+  min-height: 48px;
   justify-content: space-between;
   align-items: center;
 }
@@ -65,7 +72,7 @@ ul li {
 
 .header__logo {
   display: block;
-  width: 150px;
+  width: 155px;
   height: 48px;
 }
 
@@ -264,6 +271,7 @@ ul li {
 .title_desc {
   max-width: 452px;
   min-height: 29px;
+  white-space: nowrap;
   color: #333;
   font-size: 24px;
   font-style: normal;
@@ -274,6 +282,7 @@ ul li {
 .paragraph_desc {
   max-width: 450px;
   min-height: 128px;
+  margin-right: 2px;
   color: #333;
   font-size: 16px;
   font-style: normal;
