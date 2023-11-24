@@ -43,8 +43,8 @@ ul li {
 
 .site_container {
   max-width: 768px;
-  height: 69px;
   padding: 0 50px;
+  margin: 0 auto;
 }
 
 .header__container {
@@ -230,13 +230,15 @@ ul li {
   max-width: 175px;
   min-height: 60px;
   padding: 19px 38px;
-  border: 3px solid #f90;
-  background-color: transparent;
   color: #fff;
+  text-align: center;
+  background-color: transparent;
+  border: 3px solid #f90;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  text-align: center;
 }
 
 .container__two {
@@ -255,7 +257,7 @@ ul li {
   max-width: 668px;
   min-height: 235px;
   border: #cacaca solid 1px;
-  padding: 35px 46px 35px 40px;
+  padding: 35px 43px 35px 40px;
 }
 
 .img_desc {
@@ -265,14 +267,13 @@ ul li {
 }
 
 .container_two_text {
-  max-width: 450px;
+  max-width: 452px;
   min-height: 165px;
 }
 
 .title_desc {
   max-width: 452px;
   min-height: 29px;
-  white-space: nowrap;
   color: #333;
   font-size: 24px;
   font-style: normal;
@@ -299,4 +300,97 @@ ul li {
   min-height: 235px;
   border: #cacaca solid 1px;
   padding: 35px 46px 35px 40px;
+}
+
+.how {
+  margin-bottom: 80px;
+}
+
+.title_how {
+  max-width: 430px;
+  height: 58px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+.buttons_how {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.step__one {
+  background: none;
+  color: #e1670e;
+  font-size: 18px;
+}
+
+.step__another {
+  background: none;
+  font-size: 18px;
+}
+
+.how__container {
+  max-width: 668px;
+  min-height: 799px;
+}
+
+.one-container {
+  max-width: 668px;
+  min-height: 284px;
+  background-image: url("../img/img_work.jpg");
+  margin-bottom: 38px;
+}
+
+.two-container {
+}
+
+.title-container {
+  max-width: 331px;
+  min-height: 32px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+
+.paragraph-how {
+  max-width: 667px;
+  min-height: 352px;
+  margin-bottom: 25px;
+  line-height: 32px; /* 200% */
+}
+
+.btn-one {
+  max-width: 175px;
+  min-height: 60px;
+  padding: 19px 38px;
+  background: #f90;
+  color: #fff;
+  font-weight: 700;
+  margin-right: 32px;
+}
+
+.btn-two {
+  max-width: 147px;
+  min-height: 60px;
+  background-color: #fff;
+  padding: 19px 38px;
+  color: #333;
+  border: 1px solid #333;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--bs-black);
+  background-color: var(--bs-white);
+  border-color: var(--bs-white);
+}
+
+.accordion-button::after {
+  background-image: url("../img/accordion__cross.svg");
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../img/accordion__cross.svg");
 }
