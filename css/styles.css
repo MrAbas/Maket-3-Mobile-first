@@ -256,8 +256,10 @@ ul li {
   margin-bottom: 32px;
   max-width: 668px;
   min-height: 235px;
+  /*   height: min(10%, 235px);
+ */
   border: #cacaca solid 1px;
-  padding: 35px 43px 35px 40px;
+  padding: 3.8% 4.7% 3.8% 4.4%;
 }
 
 .img_desc {
@@ -299,7 +301,7 @@ ul li {
   max-width: 668px;
   min-height: 235px;
   border: #cacaca solid 1px;
-  padding: 35px 46px 35px 40px;
+  padding: 3.8% 4.7% 3.8% 4.4%;
 }
 
 .how {
@@ -390,7 +392,38 @@ ul li {
 
 .accordion-button::after {
   background-image: url("../img/accordion__cross.svg");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 0;
 }
 .accordion-button:not(.collapsed)::after {
   background-image: url("../img/accordion__cross.svg");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+}
+
+.title__faq {
+  max-width: 668px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+
+.accordion-button {
+  padding: 0;
+  padding-top: 39px;
+  padding-bottom: 39px;
+}
+
+.title__accordion {
+  max-width: 570px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 160% */
+  margin: 0;
+  margin-right: 48px;
 }
