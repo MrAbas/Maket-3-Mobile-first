@@ -463,6 +463,8 @@ ul li {
   padding: 50px 148px 50px 50px;
 }
 .footer-content {
+  display: flex;
+  flex-direction: column-reverse;
 }
 .item-two {
   display: flex;
@@ -477,10 +479,11 @@ ul li {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 50px;
 }
 .footer-form {
-}
-.footer-form:last-child {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 50px;
 }
 .name {
@@ -501,8 +504,6 @@ ul li {
   background: #414141;
   margin-bottom: 32px;
 }
-.block_form {
-}
 .btn-form {
   max-width: 241px;
   min-height: 58px;
@@ -515,8 +516,6 @@ ul li {
   font-weight: 700;
   line-height: normal;
   margin-right: 22px;
-}
-.real-checkbox {
 }
 .text-checkbox {
   color: #cacaca;
@@ -536,6 +535,9 @@ ul li {
 }
 .social {
   display: flex;
+}
+.social li:not(:last-child) {
+  margin-right: 25px;
 }
 .social-item {
   min-width: 60px;
