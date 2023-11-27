@@ -36,6 +36,8 @@ ul li {
   font-size: 0;
 }
 
+/* header--------------------------------------------------------------------- */
+
 .header {
   background: #fff;
   box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.1);
@@ -91,7 +93,7 @@ ul li {
   border: none;
   padding: 0;
 }
-
+/* main--------------------------------------------------------------------- */
 .hero {
   margin-bottom: 80px;
 }
@@ -256,10 +258,10 @@ ul li {
   margin-bottom: 32px;
   max-width: 668px;
   min-height: 235px;
-  /*   height: min(10%, 235px);
- */
   border: #cacaca solid 1px;
-  padding: 3.8% 4.7% 3.8% 4.4%;
+  /*   padding: 3.8% 4.8% 3.8% 4.4%;
+ */
+  padding: 35px 44px 35px 40px;
 }
 
 .img_desc {
@@ -274,13 +276,20 @@ ul li {
 }
 
 .title_desc {
-  max-width: 452px;
   min-height: 29px;
   color: #333;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.title_desc_one {
+  max-width: 452px;
+}
+
+.title_desc_two {
+  max-width: 406px;
 }
 
 .paragraph_desc {
@@ -292,6 +301,7 @@ ul li {
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
+  margin: 0;
 }
 
 .desc__two {
@@ -301,7 +311,7 @@ ul li {
   max-width: 668px;
   min-height: 235px;
   border: #cacaca solid 1px;
-  padding: 3.8% 4.7% 3.8% 4.4%;
+  padding: 35px 48px 35px 40px;
 }
 
 .how {
@@ -314,7 +324,7 @@ ul li {
   font-size: 48px;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 50px;
+  margin-bottom: 43px;
 }
 
 .buttons_how {
@@ -347,6 +357,9 @@ ul li {
 }
 
 .two-container {
+  max-width: 667px;
+  min-height: 477px;
+  height: 100%;
 }
 
 .title-container {
@@ -384,6 +397,10 @@ ul li {
   border: 1px solid #333;
 }
 
+.accordion-item {
+  border: none;
+}
+
 .accordion-button:not(.collapsed) {
   color: var(--bs-black);
   background-color: var(--bs-white);
@@ -404,8 +421,17 @@ ul li {
   background-size: cover;
 }
 
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.faq {
+  margin-bottom: 80px;
+}
+
 .title__faq {
   max-width: 668px;
+  min-height: 117px;
   font-size: 48px;
   font-weight: 400;
   line-height: normal;
@@ -416,8 +442,8 @@ ul li {
   padding: 0;
   padding-top: 39px;
   padding-bottom: 39px;
+  border-top: 1px solid #cacaca;
 }
-
 .title__accordion {
   max-width: 570px;
   font-size: 20px;
@@ -426,4 +452,102 @@ ul li {
   line-height: 32px; /* 160% */
   margin: 0;
   margin-right: 48px;
+}
+/* footer--------------------------------------------------------------------- */
+.footer-container {
+  background-color: #222;
+}
+.footer {
+  max-width: 768px;
+  min-height: 792px;
+  padding: 50px 148px 50px 50px;
+}
+.footer-content {
+}
+.item-two {
+  display: flex;
+  flex-direction: column;
+  max-width: 570px;
+  min-height: 494px;
+  margin: 0 auto;
+}
+.title-two-item {
+  color: #cacaca;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer-form {
+}
+.footer-form:last-child {
+  margin-bottom: 50px;
+}
+.name {
+  max-width: 541px;
+  width: 100%;
+  min-height: 60px;
+  background: #414141;
+  margin-bottom: 25px;
+}
+.email {
+  min-height: 60px;
+  max-width: 541px;
+  width: 100%;
+  background: #414141;
+  margin-bottom: 25px;
+}
+.massage {
+  background: #414141;
+  margin-bottom: 32px;
+}
+.block_form {
+}
+.btn-form {
+  max-width: 241px;
+  min-height: 58px;
+  background: #f90;
+  color: #fff;
+  padding: 19px 38px;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 22px;
+}
+.real-checkbox {
+}
+.text-checkbox {
+  color: #cacaca;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}
+.item-one {
+  display: flex;
+  max-width: 230px;
+  min-height: 148px;
+  flex-direction: column;
+}
+.footer-logo {
+  margin-bottom: 16px;
+}
+.social {
+  display: flex;
+}
+.social-item {
+  min-width: 60px;
+  min-height: 60px;
+  background-repeat: no-repeat;
+}
+.item__fb {
+  background-image: url("../img/icon_fb.svg");
+}
+.item__vk {
+  background-image: url("../img/icon_vk.svg");
+}
+.item__inst {
+  background-image: url("../img/icon_inst.svg");
 }
