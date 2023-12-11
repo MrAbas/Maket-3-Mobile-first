@@ -1,0 +1,140 @@
+@media (min-width: 1024px) {
+  .header__container {
+    padding: 26px 50px;
+  }
+  .site_container {
+    max-width: 1024px;
+  }
+  .header__nav {
+    max-width: 924px;
+  }
+  .hero {
+    margin-bottom: 36px;
+  }
+  .carousel__container {
+    padding: 160px 77px;
+  }
+  .title__carousel {
+    max-width: 770px;
+    min-height: 146px;
+    font-size: 60px;
+  }
+  .paragraph__carousel {
+    max-width: 660px;
+    min-height: 48px;
+    font-size: 20px;
+  }
+  .slide__resolution {
+    min-height: 668px;
+  }
+  .about {
+    margin-bottom: 123px;
+  }
+  .title__about {
+    margin-bottom: 14px;
+  }
+  .paragraph__about {
+    max-width: 925px;
+    min-height: 263px;
+    margin-bottom: 55px;
+  }
+  .about__container {
+    max-width: 924px;
+    min-height: 1294px;
+  }
+  .container__one {
+    min-height: 640px;
+    max-width: 924px;
+  }
+  .holder {
+    max-width: 924px;
+    min-height: 196px;
+    padding: 50px;
+  }
+  .paragraph__holder {
+    max-width: 454px;
+    min-height: 96px;
+  }
+  .container__two {
+    max-width: 924px;
+    min-height: 622px;
+  }
+  .desc__one {
+    max-width: 924px;
+    min-height: 295px;
+    padding: 65px 153px 65px 77px;
+  }
+  .img_desc {
+    max-width: 190px;
+    min-height: 165px;
+  }
+  .desc__two {
+    max-width: 924px;
+    min-height: 295px;
+    padding: 65px 153px 65px 77px;
+  }
+  .buttons_how {
+    max-width: 459px;
+    max-height: 22px;
+    margin-bottom: 54px;
+  }
+  .how__container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    max-width: 924px;
+    min-height: 701px;
+  }
+  .one-container {
+    max-width: 437px;
+    width: 100%;
+    min-height: 689px;
+    margin: 0;
+    background-image: url("../img/img_work2.jpg");
+    background-size: cover;
+  }
+  .paragraph-how {
+    max-width: 437px;
+    min-height: 576px;
+  }
+  .faq {
+    margin-bottom: 80px;
+  }
+  .title__faq {
+    max-width: 693px;
+    min-height: 59px;
+    margin-bottom: 32px;
+  }
+  .accordion-button {
+    justify-content: space-between;
+  }
+  .title__accordion {
+    max-width: 756px;
+  }
+  .footer {
+    max-width: 1024px;
+    min-height: 594px;
+    max-height: 594px;
+    padding: 50px 50px 50px 49px;
+  }
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer-logo {
+    margin-bottom: 19px;
+  }
+  .footer__list {
+    display: block;
+    max-width: 251px;
+    min-height: 252px;
+    margin-bottom: 90px;
+  }
+  .item__list {
+    color: #cacaca;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px; /* 200% */
+    white-space: nowrap;
+  }
+}

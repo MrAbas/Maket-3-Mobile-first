@@ -36,7 +36,23 @@
             <img src="./img/logo.svg" alt="Logo" />
           </a>
           <div class="right_header">
-            <ul class="header__list"></ul>
+            <ul class="header__list" id="burger__content">
+              <li class="header__item">
+                <a href="#" class="header__link">О нас</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">Проекты</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">Этапы</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">Отзывы</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">Контакты</a>
+              </li>
+            </ul>
             <button class="button__search" id="button__search">
               <img src="./img/search.svg" alt="search" />
             </button>
@@ -75,12 +91,22 @@
             </div>
             <div class="carousel-inner" style="height: 100%">
               <div class="carousel-item active" style="height: 100%">
-                <img
-                  src="./img/pic_1.png"
-                  class="d-block w-100"
-                  alt="img one"
-                  style="height: 100%"
-                />
+                <picture>
+                  <source
+                    srcset="./img/pic_1_768px.png"
+                    media="(max-width: 1023px)"
+                  />
+                  <source
+                    srcset="./img/pic_1-1024px.jpg"
+                    media="(min-width: 1024px)"
+                  />
+                  <img
+                    src="./img/pic_1_768px.png"
+                    class="d-block w-100"
+                    alt="img one"
+                    style="height: 100%"
+                  />
+                </picture>
               </div>
               <div class="carousel-item" style="height: 100%">
                 <img
@@ -219,8 +245,10 @@
                 картины в целом, однако конкретные выводы, разумеется, призваны
                 к ответу.
               </p>
-              <button class="btn-one">Подробнее</button>
-              <button class="btn-two">Договор</button>
+              <div class="btn-two-container">
+                <button class="btn-one">Подробнее</button>
+                <button class="btn-two">Договор</button>
+              </div>
             </div>
           </div>
         </section>
@@ -397,6 +425,15 @@
             <a href="#" class="footer-logo">
               <img src="./img/footer-logo.svg" alt="footer logo" />
             </a>
+            <ul class="footer__list">
+              <li class="item__list">О нас</li>
+              <li class="item__list">Проекты</li>
+              <li class="item__list">Отзывы</li>
+              <li class="item__list">Договор оферты</li>
+              <li class="item__list">Договор подряда</li>
+              <li class="item__list">Конфиденциальность</li>
+              <li class="item__list">Партнёрское соглашение</li>
+            </ul>
             <ul class="social">
               <li class="social-item item__fb"></li>
               <li class="social-item item__vk"></li>
@@ -415,13 +452,17 @@
               <textarea
                 class="massage"
                 cols="30"
-                rows="10"
+                rows="3"
                 placeholder="Сообщение"
               ></textarea>
               <div class="block_form">
                 <button class="btn-form">Отправить данные</button>
-                <input class="real-checkbox" type="checkbox" />
-                <span class="text-checkbox">Согласен на обработку данных</span>
+
+                <label class="text-checkbox"
+                  ><input class="real-checkbox" type="checkbox" />
+                  <span class="custom-checkbox"></span>
+                  Согласен на обработку данных</label
+                >
               </div>
             </form>
           </div>
